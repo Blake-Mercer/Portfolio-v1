@@ -22,6 +22,7 @@ function NavBar() {
   useEffect(() => {
     showButton();
   }, []);
+
   window.addEventListener('resize', showButton);
 
   return (
@@ -62,7 +63,7 @@ function NavBar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Contact Me</Button>}
+          {button && <Button buttonStyle='btn__outline'>Contact Me</Button>}
         </div>
       </nav>
     </>

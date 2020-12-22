@@ -1,0 +1,88 @@
+/* Button */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn_dark,
+.bg_dark {
+  background: #333;
+  color: #fff;
+}
+.btn_light,
+.bg_light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* Flex columns */
+.flex_columns.flex_reverse .row {
+  flex-direction: row-reverse;
+}
+
+.flex_columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.flex_columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex_columns .column .column_1,
+.flex_columns .column .column_2 {
+  height: 100%;
+}
+
+.flex_columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex_columns .column_2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+}
+
+.flex_columns h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.flex_columns h4 {
+  margin-bottom: 10px;
+}
+
+.flex_columns p {
+  margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+  .flex_columns .column,
+  .flex-grid .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  /* img {
+    width: 70%;
+  } */
+}
