@@ -28,7 +28,7 @@ const Projects = () => {
                 href='https://www.youtube.com/watch?v=pCA4qpQDZD8&t=3614s'
                 className='btn btn_dark'>
                 <i className='fas fa-chevron'></i>
-                Read More
+                Live Code
               </a>
             </div>
           </div>
@@ -57,7 +57,7 @@ const Projects = () => {
               </p>
               <a href='s' className='btn btn_light'>
                 <i className='fas fa-chevron'></i>
-                Read More
+                Live Code
               </a>
             </div>
           </div>
@@ -86,7 +86,7 @@ const Projects = () => {
               </p>
               <a href='s' className='btn btn_dark'>
                 <i className='fas fa-chevron'></i>
-                Read More
+                Live Code
               </a>
             </div>
           </div>
