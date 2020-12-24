@@ -71,6 +71,13 @@
 .flex_columns h4 {
   margin-bottom: 10px;
 }
+
+.a-wrappers {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
 .flex_columns a {
   text-decoration: none;
 }

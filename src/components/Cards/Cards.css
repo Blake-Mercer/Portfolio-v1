@@ -1,5 +1,5 @@
 .cards {
-  padding: 4rem;
+  padding: 1rem;
   background: #fff;
 }
 
@@ -105,13 +105,13 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 800px) {
   .cards__items {
     display: flex;
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 800px) {
   .cards__item {
     margin-bottom: 2rem;
   }
