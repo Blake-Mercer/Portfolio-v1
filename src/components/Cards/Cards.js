@@ -6,7 +6,7 @@ import MyImage from '../../images/img-3.jpg';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Here are some of my projects!</h1>
+      <h1>Here are some of my projects. See more on Github. </h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
