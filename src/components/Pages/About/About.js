@@ -4,7 +4,35 @@ import './About.css';
 const About = () => {
   return (
     <>
-      <section id='about-info' className='bg-light py-3'>
+      <article className='flex_columns flex_reverse'>
+        <div className='row'>
+          <div className='column'>
+            <div className='column_1'>
+              <img src='/images/img-home.jpg' alt='' />
+            </div>
+          </div>
+          <div className='column'>
+            <div className='column_2 bg_light'>
+              <h1 className='l-heading'>
+                <span className='text-primary'>About</span> Blake Mercer
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem veritatis illo, similique labore voluptate nulla
+                animi dolorum eius laborum illum, nesciunt quod reprehenderit
+                dicta autem vel nobis minima sit deleniti!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A velit
+                voluptatem impedit voluptate. Doloribus, voluptas dolore!
+                Cupiditate aliquid sequi deserunt.
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      {/* <section id='about-info' className='bg-light py-3'>
         <div className='container'>
           <div className='info-left'>
             <h1 className='l-heading'>
@@ -28,7 +56,7 @@ const About = () => {
         </div>
       </section>
 
-      <div className='clr'></div>
+      <div className='clr'></div> */}
 
       <section id='testimonials' className='py-3'>
         <div className='container'>
