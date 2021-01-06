@@ -4,6 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className='footer bg-dark'>
+      <h3> Connect With Me!</h3>
       <div className='social'>
         <a href='#s'>
           <i className='fab fa-facebook fa-2x'></i>
