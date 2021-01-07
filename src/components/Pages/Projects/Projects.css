@@ -1,16 +1,15 @@
 /* Button */
-.btn {
+.btnz {
   cursor: pointer;
   display: inline-block;
   padding: 10px 30px;
   color: #fff;
-  background-color: #28a745;
   border: none;
   border-radius: 5px;
   /* margin-bottom: 5px; */
 }
 
-.btn:hover {
+.btnz:hover {
   opacity: 0.9;
 }
 
@@ -26,11 +25,11 @@
 }
 
 /* Flex columns */
-.flex_columns.flex_reverse .row {
+.flex_columns.flex_reverse .rows {
   flex-direction: row-reverse;
 }
 
-.flex_columns .row {
+.flex_columns .rows {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

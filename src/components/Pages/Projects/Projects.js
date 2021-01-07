@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <main>
       <article className='flex_columns'>
-        <div className='row'>
+        <div className='rows'>
           <div className='column'>
             <div className='column_1'>
               <img src='/images/img-home.jpg' alt='' />
@@ -27,13 +27,13 @@ const Projects = () => {
               <div className='a-wrappers'>
                 <a
                   href='https://www.youtube.com/watch?v=pCA4qpQDZD8&t=3614s'
-                  className='btn btn_dark'>
+                  className='btnz btn_dark'>
                   <i className='fas fa-chevron'></i>
                   View Code
                 </a>
                 <a
                   href='https://www.youtube.com/watch?v=pCA4qpQDZD8&t=3614s'
-                  className='btn btn_dark'>
+                  className='btnz btn_dark'>
                   <i className='fas fa-chevron'></i>
                   View Code
                 </a>
@@ -44,7 +44,7 @@ const Projects = () => {
       </article>
 
       <article className='flex_columns flex_reverse'>
-        <div className='row'>
+        <div className='rows'>
           <div className='column'>
             <div className='column_1'>
               <img src='/images/img-home.jpg' alt='' />
@@ -63,7 +63,7 @@ const Projects = () => {
                 iusto cupiditate odio maxime adipisci cumque eligendi nemo
                 dolore id itaque?
               </p>
-              <a href='s' className='btn btn_light'>
+              <a href='s' className='btnz btn_light'>
                 <i className='fas fa-chevron'></i>
                 View Code
               </a>
@@ -73,7 +73,7 @@ const Projects = () => {
       </article>
 
       <article className='flex_columns'>
-        <div className='row'>
+        <div className='rows'>
           <div className='column'>
             <div className='column_1'>
               <img src='/images/img-home.jpg' alt='' />
@@ -92,7 +92,7 @@ const Projects = () => {
                 iusto cupiditate odio maxime adipisci cumque eligendi nemo
                 dolore id itaque?
               </p>
-              <a href='s' className='btn btn_dark'>
+              <a href='s' className='btnz btn_dark'>
                 <i className='fas fa-chevron'></i>
                 View Code
               </a>

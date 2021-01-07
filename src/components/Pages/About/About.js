@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
       <article className='flex_columns flex_reverse'>
-        <div className='row'>
+        <div className='rows'>
           <div className='column'>
             <div className='column_1'>
               <img src='/images/img-home.jpg' alt='' />

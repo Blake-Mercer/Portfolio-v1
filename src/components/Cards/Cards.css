@@ -4,6 +4,7 @@
 }
 
 h1 {
+  color: rgb(28, 27, 27);
   text-align: center;
 }
 
@@ -94,7 +95,7 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: rgb(28, 27, 27);
   font-size: 18px;
   line-height: 24px;
 }

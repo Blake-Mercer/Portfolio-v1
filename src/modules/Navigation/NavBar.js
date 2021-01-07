@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 
 import Button from '../../components/UI/Button/Button';
@@ -27,29 +28,29 @@ function NavBar() {
 
   return (
     <>
-      <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+      <nav className='navBar'>
+        <div className='navbar-containment'>
+          <Link to='/' className='navbar-Logo' onClick={closeMobileMenu}>
             PortfolioHub <i className='fas fa-fire-alt'></i>
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
+          <div className='menu-icon1' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+          <ul className={click ? 'nav-menu1 active1' : 'nav-menu1'}>
+            <li className='nav-El'>
+              <Link to='/' className='nav-linky' onClick={closeMobileMenu}>
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className='nav-El'>
               <Link
                 to='/projects'
-                className='nav-links'
+                className='nav-linky'
                 onClick={closeMobileMenu}>
                 Projects
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className='nav-El'>
               <Link
                 to='/contact'
                 className='nav-links-mobile'
@@ -58,7 +59,7 @@ function NavBar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn__outline'>Contact</Button>}
+          {button && <Button buttonStyle='bttn__outline'>Contact</Button>}
         </div>
       </nav>
     </>

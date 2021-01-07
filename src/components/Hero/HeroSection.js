@@ -11,9 +11,9 @@ function HeroSection() {
       <p>Front-End Engineer</p>
       <div className='hero-btns'>
         <Button
-          className='btns'
-          buttonStyle='btn__primary'
-          buttonSize='btn__large'>
+          className='bttn1'
+          buttonStyle='bttn__outline'
+          buttonSize='bttn__medium'>
           Contact Me
         </Button>
       </div>
