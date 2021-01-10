@@ -103,14 +103,14 @@
     z-index: 1;
   }
 
-  .nav-links1 {
+  .nav-linky {
     text-align: center;
     padding: 2rem;
     width: 100%;
     display: table;
   }
 
-  .nav-links1:hover {
+  .nav-linky:hover {
     background-color: #fff;
     color: #242424;
     border-radius: 0;

@@ -65,7 +65,7 @@ const About = () => {
         <div className='container'>
           <h2 className='l-heading'>Technologies In My Toolkit</h2>
 
-          {/* <div className='testimonial bg-primary'>
+          <div className='testimonial bg-primary'>
             <img src='/images/img-home.jpg' alt='Samantha' />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
@@ -74,9 +74,9 @@ const About = () => {
               amet odio laboriosam sit iusto tempore fugit exercitationem, a
               dolore quo maiores nisi!
             </p>
-          </div> */}
+          </div>
 
-          {/* <div className='testimonial bg-primary'>
+          <div className='testimonial bg-primary'>
             <img src='/images/img-home.jpg' alt='Jen' />
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
@@ -85,7 +85,7 @@ const About = () => {
               amet odio laboriosam sit iusto tempore fugit exercitationem, a
               dolore quo maiores nisi!
             </p>
-          </div> */}
+          </div>
         </div>
       </section>
     </>
