@@ -22,22 +22,8 @@ p {
   padding: 0 20px;
 }
 
-.text-primary {
-  color: #f7c08a !important;
-}
-
-.bg-dark {
-  background: #333;
-  color: #fff;
-}
-
-.bg-light {
-  background: #f4f4f4;
-  color: #333;
-}
-
-.bg-primary {
-  background: #f7c08a;
+.bk_light {
+  background: gainsboro;
   color: #333;
 }
 
